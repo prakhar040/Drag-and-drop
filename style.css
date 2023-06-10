@@ -1,0 +1,33 @@
+body{
+  background-color: #abc655;
+}
+
+.container {
+      display: flex;
+    }
+
+    .item {
+      padding: 10px;
+      margin: 5px;
+      background-color: #6a5acd;
+      cursor: move;
+    }
+
+    .item:hover {
+      background-color: #ffa500;
+    }
+
+    .item.dragging {
+      opacity: 0.5;
+    }
+
+    .droppable {
+      border: 2px dashed #ee82ee;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    #success-msg {
+  color: green;
+  font-weight: bold;
+}

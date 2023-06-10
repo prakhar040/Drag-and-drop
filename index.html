@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <div class="draggable-container">
+      <div class="item" draggable="true"><img src="images/img1.jpeg" alt=""></div>
+      <div class="item" draggable="true"><img src="images/img2.jpeg" alt=""></div>
+      <div class="item" draggable="true"><img src="images/img3.jpeg" alt=""></div>
+    </div>
+    <div class="droppable-container">
+      Drop here
+    </div>
+  </div>
+
+  <button onclick="resetContainers()">Reset</button>
+  <p id="success-msg" style="display: none;">Item successfully dropped!</p>
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
